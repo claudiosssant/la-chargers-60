@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    
+    <title>LA Chargers</title>
+    
+  </head>
+  <body>
+    <div class="fundo-video">
+      <video class="video" autoplay loop muted>
+        <source src="./src/video/LA-Chargers.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <header class="cabecalho">
+      <a>
+        <img
+          class="logo"
+          src="./src/imagens/Chargers-Logo.png"
+          alt="logo LA Chargers"
+        />
+      </a>
+      <nav> 
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Details</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="informacoes">
+        <img
+          class="imagem-titulo"
+          src="./src/imagens/Los-Angeles-Chargers.png"
+          alt="imagem do LA Chargers"
+        />
+        <p class="descricao">O Los Angeles Chargers está comemorando a 60ª temporada da história de sua franquia em 2019 e agora eles têm um logotipo comemorativo para acompanhar. Los Angeles está incluindo o tempo da franquia na American Football League (1960-69) e San Diego (1961-2016) no cálculo do marco de 60 temporadas este ano.</p>
+
+        <button class="botao-trailer">Veja o trailer</button>
+      </div>
+      <img class="anv-img" src="./src/imagens/aniv-logo-chargers.png" />
+      <div class="modal">
+        <div class="conteudo-modal">
+          <span class="fechar-modal">X</span>
+          <iframe id="video" width="853" height="480" src="https://www.youtube.com/embed/ADkbTrutlog" title="L.A. Chargers "Legacy" - 2022 Hype Trailer | Director's Cut" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
+
